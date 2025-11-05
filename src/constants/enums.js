@@ -1,0 +1,16 @@
+// Enums (mirrors backend enums)
+export const USER_ROLE = {
+  CUSTOMER: "CUSTOMER",
+  ADMIN: "ADMIN",
+};
+
+export const ADDRESS_TYPE = {
+  SHIPPING: "SHIPPING",
+  BILLING: "BILLING",
+};
+
+export const TOKEN_TYPE = {
+  EMAIL_VERIFICATION: "EMAIL_VERIFICATION",
+  PHONE_VERIFICATION: "PHONE_VERIFICATION",
+  PASSWORD_RESET: "PASSWORD_RESET",
+};
